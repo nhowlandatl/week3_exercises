@@ -1,4 +1,65 @@
-.main {
-    color: black;
-    
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1; 
+  background-color: #333;
 }
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden; 
+  padding: 0 2rem; 
+  background-color: teal; 
+  color:white; 
+}
+
+.resume-box {
+  padding: 20px;  
+  font-size: large; 
+  text-align: justify;  
+  white-space: nowrap;
+}
+
+.portrait-box {
+  font-size: large; 
+  text-align: justify; 
+}
+
+.below-portrait {
+  font-size: large; 
+  text-align: justify; 
+}
+
+.inner-text {
+  text-align: justify;
+}
+
+.left-linkedin {
+  float: left;
+  padding: 0 5px 30px 0;
+}
+
+.left-resume {
+  float: left; 
+  padding: 0 30px 30px 0;
+}
+
+
+li {
+  margin: 2px;
+}
+
+a {
+  color: #b5ba11;
+}
+
+
+.largefont {
+  font-size: 35px;
+}
+
+/* set UL items to start at top of image... */
+/* put the certification/project/education within a div along the resume image */
